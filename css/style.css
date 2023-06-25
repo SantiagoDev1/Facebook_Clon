@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: 'Voces', cursive;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(250, 253, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7vw;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#section1 {
+    padding-top: 170px;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#section2 {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(60, 60, 255);
+    font-size: 63px;
+    font-weight: bolder;
+}
+h2{
+    font-size: 28px;
+}
+#card {
+    width: 100%;
+    box-shadow: 0 0 10px rgb(207, 207, 207);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+input {
+    border: 1px solid rgb(184, 184, 184);
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 13px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid rgb(60, 60, 255);
+}
+
+input::placeholder{
+    color: rgb(188, 188, 188);
+}
+
+button {
+    border: none;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 5px;
+    height: 50px;
+    font-weight: bold;
+    font-size: larger;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#login {
+    background-color: rgb(60, 60, 255);
+    color: white;
+    margin-top: 5px;
+    width: 100%;
+}
+
+#signup {
+    background-color: rgb(20, 169, 0);
+    color: white;
+    width: 50%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+hr {
+    margin-top: 10px;
+    width: 100%;
+    transform: rotate(0deg);
+}
+
+h3 {
+    text-align: center;
+    font-size: 16px;
+    margin: 20px;
+
+}
+
+#signup:hover {
+    background-color: rgb(16, 139, 0);
+}
+
+#login:hover {
+    background-color: rgb(35, 35, 255);
+}
+
+#card a {
+    text-decoration: none;
+    color: rgb(60, 89, 255);
+}
+
+
+h3 a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#card a:hover{
+    text-decoration: underline;
+}
